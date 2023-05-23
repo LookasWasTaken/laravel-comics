@@ -78,6 +78,13 @@ Route::get('/', function () {
             "pinterest.png",
             "periscope.png"
         ],
+        "banners" => [
+            "digital comics" => "buy-comics-digital-comics.png",
+            "dc merchandise" => "buy-comics-merchandise.png",
+            "subscription" => "buy-comics-shop-locator.png",
+            "comic shop locator" => "buy-comics-subscriptions.png",
+            "dc power visa" => "buy-dc-power-visa.svg"
+        ],
     ];
     return view('comics', $data);
 })->name('comics');

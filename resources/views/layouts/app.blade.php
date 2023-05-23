@@ -18,6 +18,7 @@
     <main>
         @include("partials.jumbo")
         @yield("content")
+        @include("partials.banner")
     </main>
     @include("partials.footer")
 </body>
