@@ -1,3 +1,2 @@
 <section id="jumbotron">
-    
 </section>
