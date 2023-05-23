@@ -1,1 +1,12 @@
 @import '~bootstrap/scss/bootstrap';
+
+body{
+    font-family: "Roboto", sans-serif;
+    #header{
+        .sponsor{
+            select{
+                font-size: 16px;
+            }
+        }
+    }
+}
