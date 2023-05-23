@@ -31,6 +31,53 @@ Route::get('/', function () {
             "news",
             "shop"
         ],
+        "links" => [
+            "1" => [
+                "DC Comics",
+                "Characters",
+                "Comics",
+                "Movies",
+                "Tv",
+                "Games",
+                "Collectibles",
+                "Videos",
+                "News"
+            ],
+            "2" => [
+                "SHOP",
+                "Shop DC",
+                "Shop DC Collectibles"
+            ],
+            "3" => [
+                "DC",
+                "Terms of Use",
+                "Privacy Policy (New)",
+                "Ad Choises",
+                "Advertising",
+                "Jobs",
+                "Subscriptions",
+                "Talent Workshops",
+                "CPSC Certificates",
+                "Ratings",
+                "Shop Help",
+                "Contact Us"
+            ],
+            "4" => [
+                "SITES",
+                "DC",
+                "Mad Magazine",
+                "DC Kids",
+                "DC Universe",
+                "DC Power Visa",
+            ],
+        ],
+        "socials" => [
+            "facebook.png",
+            "twitter.png",
+            "youtube.png",
+            "pinterest.png",
+            "periscope.png"
+        ],
     ];
     return view('comics', $data);
 })->name('comics');
