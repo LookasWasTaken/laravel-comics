@@ -85,6 +85,7 @@ Route::get('/', function () {
             "comic shop locator" => "buy-comics-subscriptions.png",
             "dc power visa" => "buy-dc-power-visa.svg"
         ],
+        "comics" => config('db.array'),
     ];
     return view('comics', $data);
 })->name('comics');
